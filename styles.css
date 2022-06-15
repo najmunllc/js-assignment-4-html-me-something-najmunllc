@@ -1,1 +1,171 @@
-/* Write your CSS here! */
+/*body {
+    background-color: aqua;
+    max-width: 100px;
+    margin: auto;
+    border: 1px solid aqua;
+    display: flex;
+    flex-direction: column;
+/*}
+header,
+footer {
+    background-color: bisque;
+    color: white;
+    padding: 1rem;
+}*/
+
+/*h1{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 50px;
+    margin-block-start: 0.85em;
+    margin-block-end: 0.85em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}*/
+
+#body{
+    background-color: white;
+}
+.wrapper {
+    width: 100%;
+    margin: 0 5%;
+}
+#content {
+    padding: 10px;
+}
+a:hover, a:active{
+    text-decoration: underline;
+}
+.funParagraph {
+    background-color: green;
+}
+nav a {
+    text-decoration: none;
+    display: block;
+    border: 1px solid #78643A;
+    background-color: 88CCD2;
+}
+nav li{
+    display: inline-block;
+    padding: 5px;
+}
+nav ul{
+    list-style: none;
+}
+nav .footer-bottom{
+    overflow: auto;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    float: right;
+    padding: 10px;
+}
+.img{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+h2 {
+    border: #78643A;
+    width: 100%;
+
+}
+.mainHeader {
+    background-color: red;
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+}
+img .mainHeader{
+    max-width: 100px;
+    float: left;
+    padding: 10px;
+
+}
+.footer-content {
+    background-color: antiquewhite;
+    padding: 10px;
+}
+.footer-bottom {
+    background-color: aqua;
+    padding: 10px;
+   
+}
+img .footer-bottom{
+    max-width: 100px;
+    float: left;
+    padding: 10px;
+}
+@media only screen and (max-width: 768px) {
+    #mainHeader {
+        width: 100%;
+    }
+}
+.fa {
+padding: 20px;
+font-size: 30px;
+width: 50px;
+text-align: center;
+text-decoration: none;
+}
+.fa:hover {
+    opacity: 0.3;
+}
+.fa-facebook {
+        background: #3B5998;
+        color: black;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background: #55ACEE;
+    color: pink;
+  }
+
+  nav {
+      background-color: antiquewhite;
+      width: 100%;
+      float: none;
+  }
+  .wrapper {
+      width: 100%;
+      margin: 0;
+  }
+  nav a {
+      padding: 0;
+  }
+         /* body{
+              margin: 0;
+              padding: 0;
+          }
+          nav{
+              width: 100%;
+              background: red;
+              overflow: auto;
+          }
+          ul {
+              padding: 0;
+              margin: 0 0 0 150px;
+              list-style: none;
+          }
+          li {
+              float: left;
+          }
+          .logo img{
+              position: absolute;
+              margin-top: 15px;
+              margin-left: 10px;
+          }
+          /*nav a{
+              width: 100px;
+              display: block;
+              padding: 20px 15px;
+              text-decoration: none;
+              font-family: Arial, Helvetica, sans-serif;
+              color: black;
+              text-align: center;
+          }*/
+         
